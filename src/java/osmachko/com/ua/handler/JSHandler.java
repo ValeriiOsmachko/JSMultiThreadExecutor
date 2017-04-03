@@ -1,8 +1,6 @@
 package osmachko.com.ua.handler;
 
 import osmachko.com.ua.entity.Script;
-
-import java.util.Collection;
 import java.util.List;
 
 /**

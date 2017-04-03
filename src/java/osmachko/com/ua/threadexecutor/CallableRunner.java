@@ -2,7 +2,6 @@ package osmachko.com.ua.threadexecutor;
 
 import osmachko.com.ua.entity.Script;
 import osmachko.com.ua.threadstatus.ThreadStatus;
-
 import javax.script.ScriptEngine;
 import java.io.StringWriter;
 import java.util.concurrent.Callable;

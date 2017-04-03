@@ -5,7 +5,6 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Service;
 import osmachko.com.ua.entity.Script;
 import osmachko.com.ua.handler.JSHandler;
-
 import javax.annotation.Resource;
 import java.util.List;
 

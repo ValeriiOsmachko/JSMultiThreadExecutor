@@ -1,11 +1,8 @@
 package osmachko.com.ua.storage;
 
-import com.sun.javafx.iio.ImageStorage;
 import lombok.Data;
-import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 import osmachko.com.ua.entity.Script;
-
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

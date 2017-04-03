@@ -1,7 +1,6 @@
 package osmachko.com.ua.storage;
 
 import osmachko.com.ua.entity.Script;
-
 import java.util.List;
 import java.util.Map;
 

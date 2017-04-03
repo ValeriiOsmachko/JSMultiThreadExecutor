@@ -8,7 +8,6 @@ import osmachko.com.ua.entity.Script;
 import osmachko.com.ua.storage.IStorage;
 import osmachko.com.ua.threadexecutor.CallableRunner;
 import osmachko.com.ua.threadstatus.ThreadStatus;
-
 import javax.annotation.Resource;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
@@ -20,7 +19,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 /**
  * Created by Valerii_Osmachko on 3/30/2017.

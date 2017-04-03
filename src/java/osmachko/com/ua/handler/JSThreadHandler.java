@@ -8,12 +8,11 @@ import osmachko.com.ua.entity.Script;
 import osmachko.com.ua.storage.IStorage;
 import osmachko.com.ua.threadexecutor.ThreadRunner;
 import osmachko.com.ua.threadstatus.ThreadStatus;
-
 import javax.annotation.Resource;
 import javax.script.ScriptEngine;
 import javax.script.ScriptEngineManager;
 import java.util.*;
-import java.util.stream.Collectors;
+
 
 /**
  * Created by Valerii_Osmachko on 3/28/2017.

@@ -1,20 +1,13 @@
 package osmachko.com.ua.threadexecutor;
 
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.ConfigurableBeanFactory;
-import org.springframework.context.annotation.Scope;
-import org.springframework.stereotype.Component;
 import osmachko.com.ua.entity.Script;
-import osmachko.com.ua.storage.Storage;
 import osmachko.com.ua.threadstatus.ThreadStatus;
-
 import javax.script.ScriptEngine;
 import javax.script.ScriptException;
 import java.io.IOException;
 import java.io.StringWriter;
 import java.util.UUID;
-import java.util.concurrent.Callable;
 
 /**
  * Created by Valerii_Osmachko on 3/29/2017.
