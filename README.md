@@ -6,9 +6,24 @@
 <ul>
 <li>java 8</li>
 <li>Stream API</li>
-<li>maven</li>
-<li>Spring core</li>
-<li>Spring mvc</li>
+<li>Maven</li>
+<li>Spring
+<ul>
+     <li>core</li>
+     <li>mvc</li>
+    </ul>
+</li>
 <li>lombok</li>
 <li>Tomcat</li>
 </ul>
+
+<strong>How to use?</strong>
+<ol>
+<li>Make <strong>git clone</strong> of this repository</li>
+<li>Open project with your IDE</li>
+<li>Wait, until all dependencies will be downloaded</li>
+<li>Open tomcat plugin and execute command <strong>tomcat7:run-war</strong></li>
+<li>Download <strong>Advanced Rest Chrome Plugin</strong> for Google Chrome(You can use other plugin or tool)</li>
+<li></li>
+</ol>
+
