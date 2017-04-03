@@ -5,6 +5,7 @@
 <strong>Technologies:</strong>
 <ul>
 <li>java 8</li>
+<li>Stream API</li>
 <li>maven</li>
 <li>Spring core</li>
 <li>Spring mvc</li>
