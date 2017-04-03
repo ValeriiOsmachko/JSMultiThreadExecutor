@@ -3,6 +3,7 @@ package osmachko.com.ua.storage;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 import osmachko.com.ua.entity.Script;
+
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -16,13 +17,9 @@ import java.util.concurrent.Future;
 @Component("executorStorage")
 public class ExecutorStorage implements IStorage<String, Future<Script>> {
 
-    public ExecutorStorage() {
-
-    }
-
     private Map<String, Future<Script>> threadContainer = new ConcurrentHashMap<>();
     private List<Script> scripts = new CopyOnWriteArrayList<>();
-
+    
     @Override
     public Map<String, Future<Script>> getStorage() {
         return threadContainer;
