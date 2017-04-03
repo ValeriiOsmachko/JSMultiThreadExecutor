@@ -1,0 +1,15 @@
+
+.idea
+*.iml
+*.ipr
+*.iws
+logs
+*.log
+/target
+.gradle
+build
+generatedsources
+*.jar
+*.war
+*.ear
+
