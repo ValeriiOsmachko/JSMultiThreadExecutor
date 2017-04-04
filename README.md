@@ -53,4 +53,4 @@ Create REST API wrapper for javax.script.ScriptEngine, which will allow starting
 
 After sending request to: http://localhost:8080/stop/{id}
 
-<a href="https://ibb.co/hScBwF"><img src="https://preview.ibb.co/ixU23v/screen2.png" alt="screen2" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>image host</a><br />
+<a href="https://ibb.co/hScBwF"><img src="https://preview.ibb.co/ixU23v/screen2.png" alt="screen2" border="0"></a><br />
