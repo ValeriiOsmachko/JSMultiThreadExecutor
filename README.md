@@ -11,7 +11,7 @@ This application was implemented in 2 ways:
 </ul>
 
 <strong>Project requirements:</strong><br>
-Create REST API wrapper for javax.script.ScriptEngine, which will allow starting javascript code in nashorn(java 8) engine in the separate thread. JS code must be passed in the body of POST method. Application have to has next functionality:
+Create REST API wrapper for javax.script.ScriptEngine, which will allow starting javascript code in nashorn(java 8) engine in the separate thread. JS code must be passed in the body of POST method. Application has to have next functionality:
 <ol>
 <li>Execute script</li>
 <li>Show all scripts</li>
