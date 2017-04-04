@@ -4,7 +4,11 @@
 <br>
 <strong>Project description:</strong><br>
 The main purpose of this program is execution of JavaScript code in a separate thread using built-in in java ScriptEngine(Nashorn).
-This application was implemented in 2 ways: using 
+This application was implemented in 2 ways:
+<ul>
+<li>Runnable</li>
+<li>Callable + Executors</li>
+</ul>
 
 <strong>Project requirements:</strong><br>
 Create REST API wrapper for javax.script.ScriptEngine, which will allow starting javascript code in nashorn(java 8) engine in the separate thread. JS code must be passed in the body of POST method. Application have to has next functionality:
