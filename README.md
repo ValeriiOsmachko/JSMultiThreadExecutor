@@ -42,6 +42,7 @@ Create REST API wrapper for javax.script.ScriptEngine, which will allow starting
 <li>Make <strong>git clone</strong> of this repository</li>
 <li>Open project with your IDE</li>
 <li>Wait, until all dependencies will be downloaded</li>
+<li>Configure lombok for you IDE. <a href="http://stackoverflow.com/questions/24006937/lombok-annotations-do-not-compile-under-intellij-idea">This is instruction for Intellij IDEA</a></li>
 <li>Open tomcat plugin and execute command <strong>tomcat7:run-war</strong></li>
 <li>Download <strong>Advanced Rest Chrome Plugin</strong> for Google Chrome(You can use other plugin or tool)</li>
 <li>Send requests and get responses :)</li>
