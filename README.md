@@ -3,8 +3,20 @@
 <a href="https://travis-ci.org/ValeriiOsmachko/JSMultiThreadExecutor"><img src="https://travis-ci.org/ValeriiOsmachko/OnlineShop.svg?branch=master" alt="Build Status" /></a>
 <br>
 <strong>Project description:</strong><br>
-The main purpose of this program is execution of JavaScript code in a separate thread using built-in in java ScriptEngine(Nashorn)
-  
+The main purpose of this program is execution of JavaScript code in a separate thread using built-in in java ScriptEngine(Nashorn).
+This application was implemented in 2 ways: using 
+
+<strong>Project requirements:</strong><br>
+Create REST API wrapper for javax.script.ScriptEngine, which will allow starting javascript code in nashorn(java 8) engine in the separate thread. JS code must be passed in the body of POST method. Application have to has next functionality:
+<ol>
+<li>Execute script</li>
+<li>Show all scripts</li>
+<li>Show status of execution</li>
+<li>Forced kill of thread</li>
+<li>Show console out put(if it is) and returned value(if it is)</li>
+</ol>
+
+
 # <strong>Technologies:</strong>
 <ul>
 <li>java 8</li>
