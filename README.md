@@ -16,7 +16,7 @@ Create REST API wrapper for javax.script.ScriptEngine, which will allow starting
 <li>Execute script</li>
 <li>Show all scripts</li>
 <li>Show status of execution</li>
-<li>Forced kill(stop) of thread</li>
+<li>Force kill(stop) of thread</li>
 <li>Delete script</li>
 <li>Show console out put(if it is) and returned value(if it is)</li>
 </ol>
